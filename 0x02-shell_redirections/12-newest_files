@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 #!/bin/bash
+<<<<<<< HEAD
 ls -t1 | head -n 10
 =======
 
 >>>>>>> 7cfe02859d37a658d33ed677f3a2f7a98b9c9fd8
+=======
+ls -t | head -n 10
+>>>>>>> dd4d9e74ae4693c54e693a419881fbcba7bb9aab
