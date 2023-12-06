@@ -39,4 +39,8 @@ ls -la --numeric-uid-gid
 "#!/bin/bash"
 "cd -"
 
+16. A script that deletes all files that end with character (~) in the current working directory
+"#!/bin/bash"
+"rm *~"
+
 
