@@ -62,6 +62,15 @@ rm -r /tmp/my_first_directory
 "#!/bin/bash"
 "ls -la . .. /boot"
 
+12. A script that prints the type of the file named iamafile in the /tmp directory
+"#!/bin/bash"
+"file /tmp/iamafile"
+
+13. A script that creates a symbolic link to /bin/ls, named __ls__ in the current working directory
+
+"#!/bin/bash"
+"ln -s /bin/ls --ls--
+
 16. A script that deletes all files that end with character (~) in the current working directory
 "#!/bin/bash"
 "rm *~"
