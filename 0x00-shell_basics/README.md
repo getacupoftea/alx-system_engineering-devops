@@ -35,6 +35,10 @@ Scripts: Shell scripts are files containing a sequence of shell commands. They a
 "#!/bin/bash
 ls -la --numeric-uid-gid
 
+6. A script that creates a directory named (my_first_directory) in the /tmp/ directory:
+"#!/bin/bash"
+"mkdir /tmp/my_first_directory"
+
 10. A script that changes the working directory to the previous one: 
 "#!/bin/bash"
 "cd -"
