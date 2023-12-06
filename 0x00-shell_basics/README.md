@@ -14,3 +14,8 @@ Scripts: Shell scripts are files containing a sequence of shell commands. They a
 
 2. A script that changes the working directory to the user’s home directory : "cd ~"
 
+3. A script that print contents in current directory in a long format : ls -l"
+
+4. A script that prints contents in current directory including hidden files and in long format : ls -la"
+
+5. 
