@@ -10,5 +10,7 @@ Scripts: Shell scripts are files containing a sequence of shell commands. They a
 
 1. To write a script that prints the absolute path name of the current working directory, the first line of the script should include the "#!/bin/bash", followed  by the command which is : "pwd". Leave a new line after this script.
 
-2. T
+2. To display the contents list of your current directory: ls, bur the first line should be the "#!/bin/bash"
+
+3. T
 
