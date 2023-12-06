@@ -8,9 +8,9 @@ Commands: Commands are instructions given to the shell to perform specific tasks
 
 Scripts: Shell scripts are files containing a sequence of shell commands. They allow you to automate tasks by executing a series of commands in a specific order. The #!/bin/bash at the beginning of a script is called a shebang or hashbang. It indicates the path to the shell interpreter (in this case, Bash) that should be used to execute the script.
 
-1. To write a script that prints the absolute path name of the current working directory, the first line of the script should include the "#!/bin/bash", followed  by the command which is : "pwd". Leave a new line after this script.
+0. To write a script that prints the absolute path name of the current working directory, the first line of the script should include the "#!/bin/bash", followed  by the command which is : "pwd". Leave a new line after this script.
 
-2. To display the contents list of your current directory: ls, bur the first line should be the "#!/bin/bash"
+1. To display the contents list of your current directory: ls, bur the first line should be the "#!/bin/bash"
 
-3. T
+2. A script that changes the working directory to the user’s home directory : "cd ~"
 
