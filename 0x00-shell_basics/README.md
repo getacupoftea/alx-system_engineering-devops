@@ -69,7 +69,7 @@ rm -r /tmp/my_first_directory
 13. A script that creates a symbolic link to /bin/ls, named __ls__ in the current working directory
 
 "#!/bin/bash"
-"ln -s /bin/ls --ls--
+"ln -s /bin/ls __ls__(to achieve this symbol,hold the shift key,and the minus sign twice)
 
 16. A script that deletes all files that end with character (~) in the current working directory
 "#!/bin/bash"
