@@ -34,4 +34,9 @@ Scripts: Shell scripts are files containing a sequence of shell commands. They a
 
 "#!/bin/bash
 ls -la --numeric-uid-gid
- 
+
+10. A script that changes the working directory to the previous one: 
+"#!/bin/bash"
+"cd -"
+
+
