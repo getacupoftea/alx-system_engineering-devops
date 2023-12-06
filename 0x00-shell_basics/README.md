@@ -75,4 +75,9 @@ rm -r /tmp/my_first_directory
 "#!/bin/bash"
 "rm *~"
 
+17. A script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory
+
+"#!/bin/bash
+"mkdir -p welcome/to/school"
+
 
