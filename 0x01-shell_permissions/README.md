@@ -5,4 +5,7 @@ This is my readme file for the shell permissions task. Below are the scripts and
 "#!/bin/bash
 "su betty"
 
-2. A 
+2. A script that prints the effective username of the current user
+
+"#!/bin/bash"
+"whoami"
