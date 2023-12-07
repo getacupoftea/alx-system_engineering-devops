@@ -25,3 +25,7 @@ This is my readme file for the shell permissions task. Below are the scripts and
 "#!/bin/bash"
 "touch hello"
 
+5. A script that adds execute permission to the owner of the file hello
+
+"#!/bin/bash"
+"chmod u+x hello"
