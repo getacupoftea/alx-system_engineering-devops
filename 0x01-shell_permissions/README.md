@@ -15,4 +15,13 @@ This is my readme file for the shell permissions task. Below are the scripts and
 "#!/bin/bash"
 "groups"
 
-3. A script that 
+3. A script that changes ownership of the file "hello" to the current user "betty"
+
+"#!/bin/bash"
+"chown betty hello"
+
+4. A script that creates an empty file called hello
+
+"#!/bin/bash"
+"touch hello"
+
