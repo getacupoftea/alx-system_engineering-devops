@@ -29,3 +29,10 @@ This is my readme file for the shell permissions task. Below are the scripts and
 
 "#!/bin/bash"
 "chmod u+x hello"
+
+6. A script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
+
+"#!/bin/bash"
+"chmod ug+x,o+r hello"
+
+7. A
