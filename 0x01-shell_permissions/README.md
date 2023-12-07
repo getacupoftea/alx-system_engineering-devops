@@ -48,4 +48,11 @@ Other users: all the permissions
 "#!/bin/bash"
 "chmod 007 hello"
 
-9. A script that 
+9. A script that  that sets the mode of the file hello to -rwxr-x-wx
+
+"#!/bin/bash"
+"chmod 753 hello"
+
+10. A script that sets the mode of the file hello the same as olleh’s mode
+"#!/bin/bash"
+"chmod --reference=olleh hello"
