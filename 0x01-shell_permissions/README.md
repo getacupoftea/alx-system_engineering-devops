@@ -60,14 +60,28 @@ Other users: all the permissions
 11. A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 
 "#!/bin/bash
-"chmod -R +X. 
+chmod -m R 
 
 12. A script that creates a directory called (my_dir) with permissions 751 in the working directory
 
 "#!/bin/bash"
-"mkdir -m 751 my_dir"
+"mkdir -m 751 my_dirb
 
 13. A script that changes the group owner to school for the file hello
 
 "#!/bin/bash"
-"
+"chgrp school hello"
+
+14. A script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+
+"#!/bin/bash"
+"chown -R vincent:staff ."
+
+15. A script that changes the owner and the group owner of _hello to vincent and staff respectively; keeping in mind that:
+-The file _hello is in the working directory
+-The file _hello is a symbolic link
+
+"#!/bin/bash"
+"chown -h vincent:staff _hello"
+
+16. A script that 
