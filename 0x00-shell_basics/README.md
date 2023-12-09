@@ -71,6 +71,16 @@ rm -r /tmp/my_first_directory
 "#!/bin/bash"
 "ln -s /bin/ls __ls__(to achieve this symbol,hold the shift key,and the minus sign twice)
 
+14. A script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory
+
+"#!/bin/bash"
+"cp -un *.html ../"
+
+15. A script that moves all files beginning with an uppercase letter to the directory /tmp/u
+
+"#!/bin/bash"
+"mv [[:upper:]]* /tmp/u"
+
 16. A script that deletes all files that end with character (~) in the current working directory
 "#!/bin/bash"
 "rm *~"
@@ -80,4 +90,18 @@ rm -r /tmp/my_first_directory
 "#!/bin/bash
 "mkdir -p welcome/to/school"
 
+18. A script that that lists all the files and directories of the current directory, separated by commas (,);
+Directory names should end with a slash (/)
+Files and directories starting with a dot (.) should be listed
+The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
+Only digits and letters are used to sort; Digits should come first
+You can assume that all the files we will test with will have at least one letter or one digit
+The listing should end with a new line
 
+"#!/bin/bash"
+"
+
+19. Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+
+"#!/bin/bash"
+"
